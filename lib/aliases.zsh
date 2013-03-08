@@ -24,3 +24,7 @@ alias sl=ls # often screw this up
 
 alias afind='ack-grep -il'
 
+VLESS=$(find /usr/share/vim -name 'less.sh')
+if [ ! -z $VLESS ]; then
+  alias less=$VLESS
+fi
