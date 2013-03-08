@@ -22,4 +22,4 @@ ZSH_THEME_GIT_PROMPT_DIRTY="%{$reset_color%}> %{$fg[yellow]%}✗"
 # Put it all together!
 PROMPT="$JARIN_CURRENT_RUBY_ $JARIN_CURRENT_LOCA_ "
 
-RPS1='%{$fg[magenta]%}%n%{$reset_color%} at %{$fg[yellow]%}%m%{$reset_color%}'
+RPS1='%{$fg[cyan]%}%n%{$reset_color%} at %{$fg[yellow]%}%m%{$reset_color%}'
