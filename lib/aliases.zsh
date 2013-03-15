@@ -19,7 +19,7 @@ alias history='fc -l 1'
 alias lsa='ls -lah'
 alias l='ls -lA1'
 alias ll='ls -lh'
-alias la='ls -lAh'
+alias la='ls -lAhd .*'
 alias sl=ls # often screw this up
 
 alias afind='ack-grep -il'
