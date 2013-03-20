@@ -14,7 +14,7 @@ ZSH_THEME_GIT_PROMPT_PREFIX="%{$reset_color%} <%{$fg[magenta]%}"
 ZSH_THEME_GIT_PROMPT_SUFFIX="%{$reset_color%}"
 
 # Do nothing if the branch is clean (no changes).
-ZSH_THEME_GIT_PROMPT_CLEAN="%{$reset_color%}> Ω"
+ZSH_THEME_GIT_PROMPT_CLEAN="%{$fg[cyan]%}> Ω"
 
 # Add a yellow ✗ if the branch is dirty
 ZSH_THEME_GIT_PROMPT_DIRTY="%{$reset_color%}> %{$fg[yellow]%}Χ"
