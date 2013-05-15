@@ -33,7 +33,7 @@ alias grup='git remote update'
 compdef _git grset=git-remote
 alias gb='git branch'
 compdef _git gb=git-branch
-alias gba='git branch -a'
+alias gba='git branch -a --color=auto'
 compdef _git gba=git-branch
 alias gcount='git shortlog -sn'
 compdef gcount=git
@@ -57,7 +57,7 @@ alias grhh='git reset HEAD --hard'
 alias gwc='git whatchanged -p --abbrev-commit --pretty=medium'
 alias gf='git ls-files | grep'
 alias gpoat='git push origin --all && git push origin --tags'
-alias glog="git log --pretty=format:'%C(yellow)%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)by %an%Creset' --abbrev-commit --date=short"
+alias glog="git log --graph --pretty=format:'%C(yellow)%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)by %an%Creset' --abbrev-commit --date=short"
 
 # Will cd into the top of the current repository
 # or submodule.
