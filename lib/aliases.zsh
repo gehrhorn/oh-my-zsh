@@ -18,7 +18,7 @@ alias history='fc -l 1'
 # List direcory contents
 alias lsa='ls -lahp'
 alias l='ls -lA1p'
-alias ll='ls -lhp'
+alias ll='ls -alhp'
 alias la='ls -lAhdp .*'
 alias sl=ls # often screw this up
 

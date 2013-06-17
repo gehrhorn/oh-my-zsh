@@ -39,7 +39,7 @@ alias grup='git remote update'
 compdef _git grset=git-remote
 alias gb='git branch --color'
 compdef _git gb=git-branch
-alias gba='git branch -a --color'
+alias gba='git branch -a --color=auto'
 compdef _git gba=git-branch
 alias gcount='git shortlog -sn'
 compdef gcount=git
