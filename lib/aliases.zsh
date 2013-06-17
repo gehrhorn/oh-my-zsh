@@ -30,4 +30,5 @@ if [ ! -z $VLESS ]; then
   alias less=$VLESS
 fi
 
-alias tmux="TERM=screen-256color-bce tmux"
+# alias tmux="TERM=screen-256color-bce tmux"
+alias rspec='nocorrect rspec'
