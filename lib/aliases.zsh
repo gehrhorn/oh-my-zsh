@@ -24,6 +24,8 @@ alias sl=ls # often screw this up
 
 alias afind='ack-grep -il'
 
+GOPATH=$HOME/go
+PATH=$PATH:$GOPATH/bin
 # alias VLESS to use vim as a "pager
 VLESS=$(find /usr/share/vim -name 'less.sh')
 if [ ! -z $VLESS ]; then
