@@ -68,7 +68,6 @@ alias gcl='git clone --recursive'
 alias gclean='git clean -fd'
 alias gpristine='git reset --hard && git clean -dfx'
 alias gcm='git checkout master'
-<<<<<<< HEAD
 alias gr='git remote'
 compdef _git gr=git-remote
 alias grv='git remote -v'
@@ -85,10 +84,8 @@ alias gb='git branch --color'
 compdef _git gb=git-branch
 alias gba='git branch -a --color=auto'
 compdef _git gba=git-branch
-=======
 alias gcmsg='git commit -m'
 alias gco='git checkout'
->>>>>>> upstream/master
 alias gcount='git shortlog -sn'
 compdef gcount=git
 alias gcp='git cherry-pick'
@@ -186,13 +183,10 @@ alias gmum='git merge upstream/master'
 alias gp='git push'
 alias gpd='git push --dry-run'
 alias gpoat='git push origin --all && git push origin --tags'
-<<<<<<< HEAD
 alias glog="git log --graph --pretty=format:'%C(yellow)%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)by %an%Creset' --abbrev-commit --date=short"
-=======
 compdef _git gpoat=git-push
 alias gpu='git push upstream'
 alias gpv='git push -v'
->>>>>>> upstream/master
 
 alias gr='git remote'
 alias gra='git remote add'
